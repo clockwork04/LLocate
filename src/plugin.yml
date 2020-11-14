@@ -1,0 +1,15 @@
+name: LLocate
+version: 1.5
+main: nya.clockwork04.LLocate.Main
+author: Snoopie
+description: The Plugin The CIA Wish They Had(tm)
+
+commands:
+     llocate:
+         usage: /<command> [target]
+         description: Locates command sender or target if specified, for players only
+         aliases: [lloc, locate, find]
+     clocate:
+            usage: /<command> [target]
+            description: Locates the target specified, for console only
+            aliases: [cloc, cfind]
